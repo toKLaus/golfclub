@@ -1,0 +1,7 @@
+{
+    "name": "pecin/golfclub",
+    "require": {
+        "doctrine/dbal": "^2.10",
+        "typo3fluid/fluid": "^2.6"
+    }
+}
