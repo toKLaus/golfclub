@@ -14,7 +14,7 @@ $conn = DriverManager::getConnection($connectionParams);
 $queryBuilder = $conn->createQueryBuilder();
 
 $queryBuilder
-    ->select("name","id")
+    ->select("name","parscore")
     ->from("course");
 
 $stmt = $conn->query($queryBuilder);
@@ -25,7 +25,7 @@ $courses = $stmt -> fetchAll();
 $view = new \TYPO3Fluid\Fluid\View\TemplateView();
 
 $paths = $view ->getTemplatePaths();
-$paths -> setTemplatePathAndFilename(__DIR__ . "/index.html");
+$paths -> setTemplatePathAndFilename(__DIR__ . "/courses.html");
 $values["courses"] = $courses;
 
 $view -> assignMultiple($values);

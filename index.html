@@ -48,16 +48,10 @@
                                 <nav>
                                     <ul id="navigation">                                                                                                                                     
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="courses.html">Courses</a></li>
+                                        <li><a href="courses.php">Courses</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </nav>
-                            </div>
-                        </div>             
-                        <div class="col-xl-2 col-lg-2">
-                            <!-- header-btn -->
-                            <div class="header-btn">
-                                <a href="#" class="btn btn1 d-none d-lg-block ">Book Online</a>
                             </div>
                         </div>
                         <!-- Mobile Menu -->
@@ -97,7 +91,7 @@
             <div class="container">
                <div class="row ">
                <div class="col-12">
-                <form action="">
+                <form action="create_score.php" method="get">
                 <div class="booking-wrap d-flex justify-content-between align-items-center">
                  
                     <!-- select in date -->
@@ -107,7 +101,12 @@
                             <span> Golfplatz:</span>
                         </div>
                         <div >
-                            <input type="text" />
+                            <select name="platz">
+                                <f:for each = "{courses}" as = "course">
+                                <option value="{course.id}">{course.name}</option>
+                                </f:for>
+                            </select>
+
                         </div>
                    </div>
                     <!-- Single Select Box -->
@@ -117,7 +116,7 @@
                             <span>Name des Spielers :</span>
                         </div>
                         <div >
-                            <input type="text" />
+                            <input name="player" type="text" />
                         </div>
                    </div>
                     <!-- Single Select Box -->
@@ -128,7 +127,7 @@
                         <div class="select-this">
                             <form action="#">
                                 <div >
-                                    <input type="number" />
+                                    <input name="hits" type="number" />
                                 </div>
                             </form>
                         </div>
@@ -139,9 +138,8 @@
                    </div>
                     <!-- Single Select Box -->
                     <div class="single-select-box pt-45 mb-30">
-                        <a href="#" class="btn select-btn"> ADD NOW</a>
+                        <input type="submit" id="button" class="btn select-btn" value="ADD NOW" >
                    </div>
-               
 
                 </div>
             </form>
