@@ -14,7 +14,7 @@ $conn = DriverManager::getConnection($connectionParams);
 $queryBuilder = $conn->createQueryBuilder();
 
 $queryBuilder
-    ->select("name","parscore")
+    ->select("name","parscore", "id")
     ->from("course");
 
 $stmt = $conn->query($queryBuilder);
