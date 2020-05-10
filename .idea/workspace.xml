@@ -3,16 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="d2d67eae-cc7e-4d9e-8d5c-beeabcb57466" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marian -Doc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/courses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses_overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses_overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -64,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bilder" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,7 +103,8 @@
       <updated>1588877046193</updated>
       <workItem from="1588877047585" duration="11164000" />
       <workItem from="1588924818610" duration="804000" />
-      <workItem from="1588926935358" duration="16619000" />
+      <workItem from="1588926935358" duration="19030000" />
+      <workItem from="1589119283599" duration="11423000" />
     </task>
     <servers />
   </component>
@@ -104,17 +112,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588882838358">
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589135350652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588882838358" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1588925021656">
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589135350652" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1589122472375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588925021656" />
-    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1589040937577">
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589122472375" />
+    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1589120161363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589040937577" />
+    <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589120161363" />
   </component>
 </project>

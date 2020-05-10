@@ -38,7 +38,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
                                 <h3 >
-                                    <a href="index.html">Golf Club Palmer</a>
+                                    <a href="index.php">Golf Club Palmer</a>
                                 </h3>
                             </div>
                         </div>
@@ -145,6 +145,55 @@
             </form>
                </div>
                </div>
+
+                <div class="row ">
+                    <div class="col-12">
+                        <form action="insert_course.php" method="POST" enctype="multipart/form-data">
+                            <div class="booking-wrap d-flex justify-content-between align-items-center">
+
+                                <!-- select in date -->
+                                <div class="single-select-box mb-30">
+                                    <!-- select out date -->
+                                    <div class="boking-tittle">
+                                        <span> Name des Golfplatzes:</span>
+                                    </div>
+                                    <div >
+                                   <input name="name" type="text">
+
+                                    </div>
+                                </div>
+                                <!-- Single Select Box -->
+                                <div class="single-select-box mb-30">
+                                    <!-- select out date -->
+                                    <div class="boking-tittle">
+                                        <span>Bild Hinzufügen:</span>
+                                    </div>
+                                    <div >
+                                        <input name="pic" type="file" />
+                                    </div>
+                                </div>
+                                <!-- Single Select Box -->
+                                <div class="select-this">
+                                    <form action="#">
+                                        <span>PAR:</span>
+                                        <div >
+                                            <input name="par" type="number" />
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- Single Select Box -->
+                                <!-- Single Select Box -->
+                                <div class="single-select-box mb-30">
+                                </div>
+                                <!-- Single Select Box -->
+                                <div class="single-select-box pt-45 mb-30">
+                                    <input name="submit" type="submit" id="button2" class="btn select-btn" value="ADD COURSE" >
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Booking Room End-->

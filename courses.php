@@ -14,13 +14,21 @@ $conn = DriverManager::getConnection($connectionParams);
 $queryBuilder = $conn->createQueryBuilder();
 
 $queryBuilder
-    ->select("name","parscore", "id")
+    ->select("name","parscore", "id","bild")
     ->from("course");
 
 $stmt = $conn->query($queryBuilder);
 
 
 $courses = $stmt -> fetchAll();
+
+
+foreach($courses as $course){
+
+  // $course['bild']= base64_encode($course['bild']);
+
+   // $values['test'] = $course['bild'];
+}
 
 $view = new \TYPO3Fluid\Fluid\View\TemplateView();
 

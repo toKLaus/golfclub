@@ -6818,6 +6818,11 @@ h6 {
   margin-right: 0;
 }
 
+
+#list{
+  color:red;
+}
+
 /* line 155, C:/Users/SPN Graphics/Desktop/hotel_up/Hotel_HTML/assets/scss/_elements.scss */
 .genric-btn {
   display: inline-block;
